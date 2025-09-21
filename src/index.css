@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Geist';
+  src: url('./assets/fonts/Geist[wght].woff2') format('woff2-variations');
+  font-weight: 100 900; /* full range */
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --font-sans: Geist, sans-serif, System-ui, ui-sans;
+}
