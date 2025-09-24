@@ -2,10 +2,11 @@
 
 @font-face {
   font-family: 'Geist';
-  src: url('./assets/fonts/Geist[wght].woff2') format('woff2-variations');
+  src: url('/fonts/Geist[wght].woff2') format('woff2-variations');
   font-weight: 100 900; /* full range */
   font-style: normal;
-  font-display: swap;
+  /* font-display: swap; */
+  font-display: block;
 }
 
 @theme {
