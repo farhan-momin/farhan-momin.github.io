@@ -24,7 +24,9 @@ function App() {
           {/* opacity-0 transition-opacity duration-200 ${ready ? 'opacity-100' : 'opacity-0'} */}
 
           <div className='flex justify-between'>
+            <div className='w-32 h-32'>
             <img className='w-32 h-auto rounded-4xl' src={pic} alt="" />
+            </div>
 
             <div className='flex gap-8 py-2'>
               <a href="https://github.com/farhan-momin" target='_blank'>
